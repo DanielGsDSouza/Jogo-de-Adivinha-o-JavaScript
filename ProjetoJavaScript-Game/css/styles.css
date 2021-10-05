@@ -1,0 +1,129 @@
+/*CORPO*/
+
+body {
+    background-color:#5e1d7c;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*TEXTO APRESENTAÇÃO*/
+h1 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000;
+}
+h3 {
+    text-align: center;
+    color: #f06ad3;
+    font-size: 24px;
+    text-shadow: 2px 1px 1px #000;
+}
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 23;
+    text-shadow: 2px 2px 2px #000;
+}
+h4 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/*INPUT E BOTÃO*/
+
+.verificar {
+    text-align: center;
+}
+.verificar input {
+    padding: 10px;
+    border-radius: 50px;
+    border-color: #000;
+}
+.verificar button {
+    padding: 10px;
+    border-radius: 25px;
+    border-color: #000;
+}
+.verificar button:hover {
+    background-color: #6ac8f3;
+    color: #000;
+    opacity: 90%;
+    transition: 0.50s;
+    cursor: pointer;
+    padding: 12px;
+}
+
+/*TEXTO RESULTADO*/
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/*IMAGENS|PERSONAGENS*/
+
+.img {
+    border-radius: 50%;
+    padding: 9px;
+    cursor: pointer;
+    align: middle;
+    height: 200px; 
+    width: 200px;
+    background-color: #fff;
+}
+
+/*RESPONSIVIDADE- VERIFICAR DEPOIS*/
+
+.img:hover {
+    height: 250px;
+    width: 250px;
+    transition: 1s;
+}
+#personagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-top: 280px;
+}
+.imagens {
+    text-align: center;
+}
+
+@media (max-width:850px) {
+    .img {
+        flex-direction: column;
+    }
+    #personagens {
+        padding-top: 50px;
+    }
+}
+@media (min-width:990px) and (max-width:1085px) {
+    #personagens {
+        padding-top: 70px;
+    }
+}
+
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+a:hover {
+    color: rgb(36, 241, 241);
+    font-size: 18px;
+    transition: 1s;
+}
